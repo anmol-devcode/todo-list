@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+}
+
+.todo-container {
+    width: 550px;
+    margin: 70px auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.todo-container h1 {
+    margin: 0 0 24px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: -0.5px;
+}
+.todo-subtitle {
+    margin: -15px 0 25px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+/* filter button  */
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0 25px;
+}
+
+.filters button {
+    padding: 9px 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #475569;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.filters button:hover {
+    background: #e2e8f0;
+}
+
+
